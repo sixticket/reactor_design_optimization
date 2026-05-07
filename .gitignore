@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Outputs
+*.csv
+*.log
+*.png
+*.pdf
+
+# Trained checkpoints
+final_*/
+*_model/
+checkpoint-*/
+
+# OpenMC scratch
+*.h5

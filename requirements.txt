@@ -1,0 +1,25 @@
+# Core
+torch>=2.1
+transformers>=4.40
+peft>=0.10
+trl>=0.8
+accelerate>=0.30
+bitsandbytes>=0.43
+
+# Reactor physics
+openmc>=0.14
+
+# Data / numerics
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+
+# Genetic algorithm baseline
+deap>=1.4
+
+# Plotting
+matplotlib>=3.7
+seaborn>=0.12
+
+# Utilities
+tqdm>=4.65
