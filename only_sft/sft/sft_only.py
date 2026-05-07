@@ -1,10 +1,10 @@
 import os
 from pathlib import Path
 
-# Project root: derived from REACTORFOLD_ROOT env var if set, otherwise
+# Project root: derived from REACTORGEN_ROOT env var if set, otherwise
 # inferred from this script's location.
 _DEFAULT_ROOT = str(Path(__file__).resolve().parents[2])
-PROJECT_ROOT = os.environ.get("REACTORFOLD_ROOT", _DEFAULT_ROOT)
+PROJECT_ROOT = os.environ.get("REACTORGEN_ROOT", _DEFAULT_ROOT)
 
 import os
 import csv

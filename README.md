@@ -1,9 +1,9 @@
-# ReactorFold
+# ReactorGen
 
 **Toward an agentic foundation model for nuclear reactor core design via
 emergent physical AI.**
 
-ReactorFold couples a compact pretrained language model (Gemma 3, 270M
+ReactorGen couples a compact pretrained language model (Gemma 3, 270M
 parameters) with the OpenMC Monte Carlo neutron-transport simulator in a
 closed perception-reasoning-action loop, learning to generate
 17 x 17 PWR fuel-assembly layouts that satisfy multi-objective safety
@@ -69,7 +69,7 @@ run_all_script/               Master orchestrator (5-seed reproducibility sweep)
 3. **Project root** (optional).  All scripts auto-detect the project root
    from their own location.  To pin it explicitly:
    ```bash
-   export REACTORFOLD_ROOT=/path/to/this/repo
+   export REACTORGEN_ROOT=/path/to/this/repo
    ```
 
 ## Reproducing the manuscript
